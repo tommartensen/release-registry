@@ -12,14 +12,14 @@ COPY Makefile Makefile
 
 RUN go build -o build/release-registry -a -ldflags '-linkmode external -extldflags "-static"' cmd/server/main.go
 
-# UI
-FROM node:18.15.0 as ui
+# # UI
+# FROM node:18.15.0 as ui
 
-COPY ui ui
+# COPY ui ui
 
-WORKDIR /ui
+# WORKDIR /ui
 
-RUN --mount=type=secret,id=npmrc,target=/root/.npmrc make
+# RUN --mount=type=secret,id=npmrc,target=/root/.npmrc make
 
 # Application
 FROM scratch as app
@@ -30,6 +30,6 @@ COPY --from=server /go/src/github.com/stackrox/release-registry/build/release-re
 
 COPY --from=server /go/src/github.com/stackrox/release-registry/gen/openapiv2 docs
 
-COPY --from=ui ui/build ui
+# COPY --from=ui ui/build ui
 
 ENTRYPOINT [ "/release-registry" ]
