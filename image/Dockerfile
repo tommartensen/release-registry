@@ -22,7 +22,7 @@ RUN go build -o build/release-registry cmd/server/main.go
 # RUN --mount=type=secret,id=npmrc,target=/root/.npmrc make
 
 # Application
-FROM registry.access.redhat.com/ubi8/ubi-minimal:8.8-1014 as app
+FROM registry.access.redhat.com/ubi8/ubi-minimal:8.10-1018 as app
 
 # COPY --from=server /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 
