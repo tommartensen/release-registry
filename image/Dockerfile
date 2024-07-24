@@ -1,5 +1,5 @@
 # Server
-FROM registry.access.redhat.com/ubi9/go-toolset:1.18.9-14 as server
+FROM registry.access.redhat.com/ubi9/go-toolset:1.21.11-7 as server
 
 WORKDIR /go/src/github.com/stackrox/release-registry
 
