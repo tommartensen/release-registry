@@ -12,7 +12,7 @@ require (
 	go.uber.org/zap v1.24.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20230530153820-e85fd2cbaebc
 	google.golang.org/grpc v1.56.1
-	google.golang.org/protobuf v1.31.0
+	google.golang.org/protobuf v1.33.0
 	gorm.io/driver/postgres v1.5.2
 	gorm.io/driver/sqlite v1.5.2
 	gorm.io/gorm v1.25.2
@@ -47,7 +47,7 @@ require (
 
 require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
-	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/hashicorp/hcl v1.0.0 // indirect
