@@ -40,7 +40,7 @@ require (
 	github.com/prometheus/procfs v0.10.1 // indirect
 	golang.org/x/crypto v0.10.0 // indirect
 	golang.org/x/oauth2 v0.8.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
+	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230530153820-e85fd2cbaebc // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
