@@ -1,6 +1,8 @@
 module github.com/stackrox/release-registry
 
-go 1.19
+go 1.23.0
+
+toolchain go1.23.8
 
 require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.0
@@ -39,8 +41,7 @@ require (
 	github.com/prometheus/common v0.42.0 // indirect
 	github.com/prometheus/procfs v0.10.1 // indirect
 	golang.org/x/crypto v0.10.0 // indirect
-	golang.org/x/oauth2 v0.8.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
+	golang.org/x/oauth2 v0.29.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230530153820-e85fd2cbaebc // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
