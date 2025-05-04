@@ -3,7 +3,7 @@ module github.com/stackrox/release-registry
 go 1.19
 
 require (
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.0
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.3
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.16.0
 	github.com/spf13/viper v1.16.0
